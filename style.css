@@ -63,12 +63,24 @@ body {
   {
     padding-top:18vh;
   }
+  .first_btn
+  {
+    margin-bottom:12px;
+  }
 }
+
+
 
   .front-text h1{
     font-size: 10vh;
     font-weight: bolder;
     text-shadow:5px 5px 10px rgb(5, 5, 5);
+  }
+
+  @media only screen and (max-width:576px){
+    .front-text h1{
+      font-size: 7vh;
+    }
   }
 
   .front-text h3{
