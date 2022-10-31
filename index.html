@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hhire - A one place solution for your job</title>
+    <!-- aos link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css page style -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- boostrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body data-spy="scroll" data-target="#navbar">
+    <!-- navbar start -->
+    <nav
+      class="navbar navbar-expand-lg bg-light" id="navbar"
+    >
+      <div class="container-fluid">
+        <img src="./Images/logo.png" class="img-fluid logo mt-0 pt-0"/>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#job">Jobs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tutorial">Job Tutorial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 searchjob"
+              type="search"
+              placeholder="search your job"
+              aria-label="Search" id="input-text"
+            />
+            <button class="btn btn-search" type="button" onclick="searchContext()">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <div class="container-fluid">
+        <!-- begin of main container-fluid -->
+        <div class="row front-page text-center justify-content-center text-white">
+            <div class="col-md-6 front-text" data-aos="slide-up" data-aos-duration="2000">
+            <h1>Start your <span style="color:rgb(26,188,156)">Dream</span> Job with us</h1>
+            <h3>Find The Best & Reliable Job Opportunity with us and level up your skill</h3>
+            <a href="#job"><button class="front-btn2 mt-2">Get your Job</button></a>
+            </div>
+        </div>
+        <!-- start of hero2 -->
+        <div class="row mt-4 mb-1 justify-content-center text-center" data-aos="zoom-in" data-aos-duration="2000">
+          <div class="col-md-8">
+            <h1>Le<span style="border-bottom:2px solid rgb(248,111,3)">t's you know about</span> us</h4>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-5 mb-5" data-aos="zoom-in" data-aos-duration="2000">
+          <div class="col-md-5">
+            <img src="https://thumbs.dreamstime.com/b/smart-intelligent-people-posing-photo-camera-office-close-up-portrait-smiling-friendly-team-adult-leader-189772873.jpg" alt="" style="width:100%;height:100%;">
+          </div>
+          <div class="col-md-5">
+            <h4 style="color:rgb(248,111,3)" class="about">About Hhire</h4>
+            <h2>Finding The Jobs That You Have Been Dreaming</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quidem molestias doloribus sed vitae accusamus, tempora explicabo, hic rem eius atque facere asperiores. Totam non deleniti similique? Nulla, eum explicabo.</h4>
+            <div class="row">
+              <div class="col-md-6">
+                <h1><i class="bi bi-search" style="color:rgb(248,111,3)"></i></h1>
+                <h3>Fast Recognition</h3>
+                <p style="text-align:justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi </p>
+              </div>
+              <div class="col-md-6">
+                <h1><i class="bi bi-file-earmark-person" style="color:rgb(248,111,3)"></i></h1>
+                <h3>Job For Everyone</h3>
+                <p style="text-align:justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi </p>
+              </div>
+            </div>
+            <div class="row mt-1" data-aos="flip-up" data-aos-duration="2000">
+              <div class="col-md-7">
+                <a href="#contact"><button class="btn apply_btn" style="padding:12px 25px;font-size:17px;background-color:rgb(248,111,3);color:white;border:none;">More About Us</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of hero2 -->
+        <!-- start of job session -->
+        <div class="row mb-3 mt-2 justify-content-center text-center" id="job"  data-aos="slide-up" data-aos-duration="2000">
+          <h1>Her<span style="border-bottom:3px solid rgb(248,111,3)">e are the best fit job for y</span>ou</h3>
+        </div>
+
+        <div class="row justify-content-evenly mb-3" data-aos="zoom-in" data-aos-duration="2000">
+
+          <div class="col-md-3 border pt-2 jobdiv">
+            <img src="https://www.naukri.com/hotjobs/images/v3/dell_nov13.gif" alt="" class="pb-2 pt-1">
+              <h4>Software Senior Engineer</h4>
+              <p>Dell International Service Private Limited</p>
+              <p><span style="font-weight:bold">Eligibility :</span> BE/B.Tech in IT/CS 2019-2023</p>
+              <p><span style="font-weight:bold">Last Date :</span> 31/11/2022</p>
+              <a href="https://www.naukri.com/job-listings-software-senior-engineer-dell-international-services-indiaprivate-limited-bangalore-bengaluru-8-to-13-years-300922909006?src=seo_srp&sid=16672242722144070_2&xp=1&px=1" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+          <div class="col-md-3 border pt-2 pb-2  jobdiv" id="jobpart">
+            <img src="https://img.naukimg.com/logo_images/groups/v1/246024.gif" alt="" class="pb-2 pt-1" style="width:22%">
+              <h4>Angular Developer</h4>
+              <p>Tata Consultancy Technology</p>
+              <p><span style="font-weight:bold">Eligibility :</span> HTML/CSS/JavaScript</p>
+              <p><span style="font-weight:bold">Last Date :</span> 10/11/2022</p>
+              <a href="https://www.naukri.com/job-listings-angular-developer-tata-consultancy-services-ltd-kolkata-hyderabad-secunderabad-pune-ahmedabad-chennai-bangalore-bengaluru-delhi-ncr-mumbai-all-areas-3-to-8-years-290922005315?src=jobsearchDesk&sid=16672282215236770_1&xp=2&px=1&nignbevent_src=jobsearchDeskGNB" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+          <div class="col-md-3 border pt-2 pb-2 jobdiv" id="jobpart">
+            <img src="https://img.naukimg.com/logo_images/groups/v1/4611983.gif" alt="" class="pb-2 pt-1" style="width:23%">
+              <h4>Java Software Developer</h4>
+              <p>Milestone Online Technology</p>
+              <p><span style="font-weight:bold">Eligibility :</span> BE/B.Tech/MCA/MSC/BSC</p>
+              <p><span style="font-weight:bold">Last Date :</span> 31/12/2022</p>
+              <a href="https://www.naukri.com/job-listings-java-software-developer-b-tech-mca-msc-bsc-freshers-milestone-online-services-private-limited-noida-gurgaon-gurugram-delhi-ncr-0-to-1-years-291022005303?src=seo_srp&sid=16672242722144070_5&xp=15&px=2" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-evenly mb-3"  data-aos="zoom-in" data-aos-duration="2000">
+
+          <div class="col-md-3 border pt-2 pb-3 jobdiv">
+            <img src="https://www.naukri.com/hotjobs/images/v3/photon_feb20.gif" alt="" class="pb-2 pt-1">
+              <h4>Business Executive</h4>
+              <p>Photon Private Limited</p>
+              <p><span style="font-weight:bold">Eligibility :</span> UG/PG 2019-2023</p>
+              <p><span style="font-weight:bold">Last Date :</span> 31/12/2022</p>
+              <a href="https://www.naukri.com/job-listings-photon-business-development-executive-photon-interactive-pvt-ltd-chennai-0-to-5-years-261022006596?src=companyPageJobsDesk&sid=16672285303805780&xp=10&px=1" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+          <div class="col-md-3 border pt-2 pb-2 jobdiv" id="jobpart">
+            <img src="https://img.naukimg.com/logo_images/groups/v1/10476.gif" alt="" class="pb-2 pt-1" width="22%">
+              <h4>Digital Marketing</h4>
+              <p>Accenture Private Limited</p>
+              <p><span style="font-weight:bold">Eligibility :</span> Any Graduate</p>
+              <p><span style="font-weight:bold">Last Date :</span> 31/12/2022</p>
+              <a href="https://www.naukri.com/job-listings-associate-digital-marketing-accenture-solutions-pvt-ltd-mumbai-1-to-3-years-311022911067?src=companyPageJobsDesk&sid=16672288802659574&xp=3&px=1" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+          <div class="col-md-3 border pt-2 pb-2 jobdiv" id="jobpart">
+            <img src="https://img.naukimg.com/logo_images/groups/v1/654452.gif" alt="" class="pb-2 pt-1" width="22%">
+              <h4>Sales Officer</h4>
+              <p>Johnson & Johnson Ltd.</p>
+              <p><span style="font-weight:bold">Eligibility :</span> MBA</p>
+              <p><span style="font-weight:bold">Last Date :</span> 31/12/2022</p>
+              <a href="https://www.naukri.com/job-listings-sales-officer-johnson-amp-johnson-ltd-mumbai-2-to-3-years-311022501671?src=companyPageJobsDesk&sid=16672292428997017&xp=1&px=1" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-evenly mb-3"  data-aos="zoom-in" data-aos-duration="2000">
+
+          <div class="col-md-3 border pt-2 pb-3 jobdiv">
+            <img src="https://img.naukimg.com/logo_images/groups/v1/339832.gif" alt="" class="pb-2 pt-1" width="20%">
+              <h4>Accounting & Taxation</h4>
+              <p>TMF Group</p>
+              <p><span style="font-weight:bold">Eligibility :</span> Chartered Accountant</p>
+              <p><span style="font-weight:bold">Last Date :</span> 01/12/2022</p>
+              <a href="https://www.naukri.com/job-listings-manager-accounting-taxation-tmf-group-mumbai-6-to-11-years-261022501390?src=companyPageJobsDesk&sid=16672294968336989&xp=3&px=1" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+          <div class="col-md-3 border pt-2 pb-2 jobdiv " id="jobpart">
+            <img src="https://img.naukimg.com/logo_images/groups/v1/214854.gif" alt="" class="pb-2 pt-1" width="22%">
+              <h4>Sr. Product Manager</h4>
+              <p>Motorola Mobility Inc.</p>
+              <p><span style="font-weight:bold">Eligibility :</span> ME/M.Tech 2019-2023</p>
+              <p><span style="font-weight:bold">Last Date :</span> 31/12/2022</p>
+              <a href="https://www.naukri.com/motorola-overview-214854?tab=jobs&functionAreaIdGid=10&searchId=16672288134166058&src=orgCompanyListing" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+          <div class="col-md-3 border pt-2 pb-2 jobdiv " id="jobpart">
+            <img src="https://img.naukimg.com/logo_images/groups/v1/4586641.gif" alt="" class="pb-2 pt-1" width="22%">
+              <h4>Frontend Developer</h4>
+              <p>Capaco Private Limited</p>
+              <p><span style="font-weight:bold">Eligibility :</span> BE/B.Tech in IT/CS 2019-2023</p>
+              <p><span style="font-weight:bold">Last Date :</span> 31/12/2022</p>
+              <a href="https://www.naukri.com/job-listings-frontend-developer-capco-technologies-pvt-ltd-mumbai-5-to-7-years-271022500580?src=companyPageJobsDesk&sid=16672301717573726&xp=2&px=1" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">Apply</button></a>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center text-center mt-3 mb-4"  data-aos="flip-up" data-aos-duration="2000">
+          <div class="col-md-5">
+            <a href="https://www.naukri.com/mnjuser/recommendedjobs" target="_blank"><button class="btn apply_btn" style="color:white;background-color:rgb(248,111,3);">More Job</button></a>
+          </div>
+        </div>
+
+        
+        <!-- end of job session -->
+
+        <!-- tutorial part start -->
+        <div class="row justify-content-center text-center" id="tutorial">
+          <div class="col-md-8 mb-3">
+            <h4 style="color:rgb(26,188,156)">Looking for an interview tips?</h4>
+            <h2>Ha<span style="border-bottom:3px solid rgb(26,188,156)">ve alook on handfull of tips by the professio</span>nal</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly text-center mb-5" style="margin-bottom:16px"  data-aos="zoom-in" data-aos-duration="2000">
+          <div class="col-md-3  mb-5">
+            <img src="https://i.ytimg.com/vi/ncuCMZRG1wo/maxresdefault.jpg" alt="" width="100%;" height="100%">
+            <a href="https://youtu.be/ncuCMZRG1wo" target="_blank"><button class="btn mt-2 mb-2" style="color:white;background-color:rgb(26,188,156);">Watch Video</button></a>
+          </div>
+
+          <div class="col-md-3  mb-5">
+            <img src="https://i.ytimg.com/vi/gnqzM6FWgTE/maxresdefault.jpg" alt="" width="100%;" height="100%">
+            <a href="https://youtu.be/gnqzM6FWgTE" target="_blank"><button class="btn mt-2 mb-2" style="color:white;background-color:rgb(26,188,156);">Watch Video</button></a>
+          </div>
+
+          <div class="col-md-3 mb-5">
+            <img src="https://i.ytimg.com/vi/3bTZgO4aAhI/mqdefault.jpg" alt="" width="100%;" height="100%">
+            <a href="https://youtu.be/3bTZgO4aAhI" target="_blank"><button class="btn mt-2 mb-2" style="color:white;background-color:rgb(26,188,156);">Watch Video</button></a>
+          </div>
+          
+        </div>
+        <!-- tutorial part end -->
+
+        <!-- footer start -->
+        <div class="row justify-content-center pt-5 pb-4" style="background-color: rgb(26,188,156);" id="contact">
+          <div class="col-md-9 bg-dark pt-3 text-center" style="color:rgb(26,188,156)"  data-aos="zoom-in" data-aos-duration="2000">
+            <img src="./Images/logo.png" alt="" width="10%" style="align-items:center" class="m-2">
+            <h4 ><i class="bi bi-twitter pe-2"></i> <i class="bi bi-linkedin pe-2"></i> <i class="bi bi-instagram pe-2"></i> <i class="bi bi-facebook"></i></h5>
+            <div class="row p-3 justify-content-evenly">
+              <div class="col-md-3 text-start">
+                <h5>Contact</h5>
+                <p>
+                  <i class="bi bi-telephone"></i> - 9839940390 / 7837849933 <br>
+                  <i class="bi bi-whatsapp"></i> - 9834772833 / 9849883943  <br>
+                  <i class="bi bi-geo-alt"></i> - 203 Jain Agarwal Mumbai.         
+                </p>
+              </div>
+              <div class="col-md-3 text-start">
+                <h5>Quick Links</h5>
+                <p>About<br>Jobs<br>Job Tutorial</p>
+              </div>
+              <div class="col-md-3 text-start">
+                <h5>Join our News-Letter</h5>
+                <form action="">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <button class="btn" style="background-color:rgb(26,188,156);color:white;">Join</button>
+              </form>
+              </div>
+              
+              <div class="col-md-10">
+                <p>Copyright &#169; Hhire 2022.All right reserved.<br>
+                Made with <i class="bi bi-heart"></i> by Siddesh Jaiswal</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- footer end -->
+        <!-- end of main container-fluid -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- aos js link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
